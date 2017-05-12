@@ -1,4 +1,5 @@
 FROM python:latest
+MAINTAINER nkano
 
 # install nltk
 RUN pip install -U nltk && \
