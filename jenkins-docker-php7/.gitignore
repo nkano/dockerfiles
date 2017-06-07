@@ -1,0 +1,4 @@
+/.ssh/*
+!/config/.ssh/.gitkeep
+/.aws/*
+!/config/.aws/.gitkeep
