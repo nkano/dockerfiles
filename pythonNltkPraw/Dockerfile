@@ -8,3 +8,6 @@ RUN pip install -U nltk && \
 # install praw
 RUN pip install -U praw
 
+# install convenient tools
+RUN apt-get update &&\
+    apt-get install -y net-tools bridge-utils zip unzip
